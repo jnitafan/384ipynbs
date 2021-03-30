@@ -9,21 +9,21 @@ mydict = {"Jan": 1, "Feb": 2, "March": 3, "April": 4, "May": 5, "June": 6, "July
           "August": 8, "September": 9, "October": 10, "November": 11, "December": 12}
 
 # print the months from the list
-print("<class 'list'>")
+print(type(mylist))
 for month in mylist:
     print(month)
 
 # print the months from the tuple
-print("<class 'tuple'>")
+print(type(mytuple))
 for month in mytuple:
     print(month)
 
 # print the months from the set
-print("<class 'myset'>")
+print(type(myset))
 for month in myset:
     print(month)
 
 # print the months from the dict
-print("<class 'dict'>")
+print(type(mydict))
 for month in mydict.keys():
     print(month)

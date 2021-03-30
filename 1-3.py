@@ -5,7 +5,12 @@ number = int(input("please input number: "))
 while number < 0:
     number = int(input("please enter an integer greater than 0: "))
 
-# square the input
-number = number ** 2
-# print the squared input
-print(number)
+# print a square as big as big as required
+square = str("")
+
+for x in range(number):
+    for y in range(number):
+        square = square + "* "
+    square = square + "\n"
+
+print(square)
